@@ -4,7 +4,7 @@ public interface ramyeon_01 {
 	
 	
 	//국물 여부
-	public abstract void soupOrNot(String soup); 
+//	public abstract void soupOrNot(String soup); 
 	//면굵기
 	public abstract void NoodleThickness(int size); 
 	//토핑선택
