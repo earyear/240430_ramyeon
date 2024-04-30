@@ -1,5 +1,7 @@
 package Ramyeon;
 
+import util.RandomSelectNumber;
+
 public class Main_Restaurant {
 
 	public static void main(String[] args) {
@@ -28,6 +30,13 @@ public class Main_Restaurant {
 		
 		System.out.println("라라라면 완성");
 		
+		String[] eatMembers = {"김민수",
+				"이현종","이수진",
+				"남귀연",	"이연수"};
+		
+		int selectedNumberofMember = RandomSelectNumber.selectInt(7);
+		// 시식자 선정 완료. 
+		System.out.println("시식하는 사람은 : " + eatMembers[selectedNumberofMember] + " 당첨.ㅋㅋㅋ");
 	}
 
 }
