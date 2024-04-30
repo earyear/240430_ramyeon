@@ -1,6 +1,6 @@
 package Ramyeon;
 
-public class RaraRamyeon {
+public class RaraRamyeon extends mainAbstract implements Price{
 	
 	public void soupOrNot(String soup) {
 		if (soup =="국물") {
